@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.org/beatles-chameleon/chameleon-api.svg?branch=master)](https://travis-ci.org/beatles-chameleon/chameleon-api)
 
+请求接口返回status header
+
 # 说明
 本仓库为chameleon的api的相关代码，chameleon 支持大量基础API，对外提供统一的接口，以模块的方式引入chameleon-api进行使用。
 接口查看及扩展等请见文档： https://beatles-chameleon.github.io/doc/api/api.html
