@@ -86,7 +86,7 @@ export default function request({
               console.warn('resDataType默认为"json", 尝试对返回内容进行JSON.parse, 但似乎出了些问题(若不希望对结果进行parse, 可传入resDataType: "text"): ', e)
             }
           }
-          resolve(data);
+          resolve({ data, headers, status });
         } else {
           if (resDataType === 'json') {
             data = tryJsonParse(data);
